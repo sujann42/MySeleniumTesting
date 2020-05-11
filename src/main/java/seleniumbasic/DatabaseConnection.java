@@ -11,8 +11,8 @@ public class DatabaseConnection {
         Connection conn = null;
         String url = "jdbc:mysql://localhost:3306/";
         String databaseName = "EMPLOYEE";
-        String username= "root";
-        String password = "root";
+        String username= "****"; //jara
+        String password = "****"; //jara
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
